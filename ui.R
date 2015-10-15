@@ -1,11 +1,12 @@
 library(shiny)
 library(ggplot2)
+
  
 dataset <- iris
  
 shinyUI(pageWithSidebar(
  
-  headerPanel("鸢尾花的数据展示"),
+  headerPanel("石头的测试数据"),
   sidebarPanel(
  
     selectInput('x', 'X', names(dataset)),
